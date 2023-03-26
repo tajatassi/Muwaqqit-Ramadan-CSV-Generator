@@ -1,0 +1,71 @@
+export interface Response {
+    list: Entry[]
+  }
+  
+  export interface Entry {
+    esha_angle: number
+    sunset_date: string
+    fajr_date: string
+    mithl_time: string
+    fea: number
+    ln: number
+    sunset_time: string
+    lt: number
+    esha_date: string
+    mithlain_date: string
+    sunset_tz: string
+    esha_time_max: string
+    ea: number
+    duha_date: string
+    rsa: number
+    fajr_tz: string
+    esha_time: string
+    diptype: string
+    d: string
+    esha_angle_min: number
+    mithl_date: string
+    esha_angle_max: number
+    karaha_tz: string
+    p: number
+    sunrise_angle_max: string
+    t: number
+    karaha_angle: number
+    k: number
+    sunrise_angle_min: string
+    esha_time_min: string
+    esha_tz: string
+    eo: number
+    eh: number
+    sunrise_time_min: string
+    sunrise_time_max: string
+    mithlain_tz: string
+    duha_angle: number
+    sunrise_time: string
+    karaha_time: string
+    ia: number
+    ehtype: any
+    zohr_date: string
+    mithl_tz: string
+    karaha_date: string
+    fajr_angle_max: number
+    fajr_time_max: string
+    duha_time: string
+    fajr_time_min: string
+    fajr_time: string
+    sunrise_date: string
+    fajr_angle: number
+    fajr_angle_min: number
+    zohr_tz: string
+    fa: number
+    zohr_time: string
+    tz: string
+    mithlain_time: string
+    duha_tz: string
+    dtz: string
+    sunset_angle_min: string
+    sunset_time_min: string
+    sunrise_tz: string
+    sunset_time_max: string
+    sunset_angle_max: string
+  }
+  

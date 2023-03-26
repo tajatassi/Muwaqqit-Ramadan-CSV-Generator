@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "module": "NodeNext",
+        "moduleResolution": "nodenext",
+        "target": "ES2022",
+        "sourceMap": true,
+        "outDir": "dist",
+        "lib": [
+            "es5",
+            "es6",
+            "dom",
+            "dom.iterable"
+        ]
+    },
+    "include": [
+        "src/**/*"
+    ]
+}

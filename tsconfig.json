@@ -5,13 +5,8 @@
         "moduleResolution": "nodenext",
         "target": "ES2022",
         "sourceMap": true,
+        "resolveJsonModule": true,
         "outDir": "dist",
-        "lib": [
-            "es5",
-            "es6",
-            "dom",
-            "dom.iterable"
-        ]
     },
     "include": [
         "src/**/*"
